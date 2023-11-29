@@ -10,9 +10,9 @@ st.write(temp_dir.name)
 def pdf_to_word(pdf_file_path):
     # Convert PDF to DOCX using pdf2docx
     docx_file_path = pdf_file_path.replace('.pdf', '.docx')
-    cv = Converter(pdf_file_path)
-    cv.convert(docx_file_path)
-    cv.close()
+    c = Converter(pdf_file_path)
+    c.convert(docx_file_path)
+    c.close()
     return docx_file_path
 
 
