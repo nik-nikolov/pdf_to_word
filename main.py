@@ -36,5 +36,4 @@ if uploaded_file is not None:
             file_name=docx_file_name,
             data=f,
             key="word_file",
-            help="Click to download the converted Word file.",
-        )
+            help="Click to download the converted Word file.",)
